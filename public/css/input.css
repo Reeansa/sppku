@@ -6,3 +6,16 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.btn-active {
+    background-color: transparent;
+    color: #171D1B;
+    box-shadow: none;
+    border-color: transparent;
+    border-bottom: 2px solid #005B4D;
+}
+
+.join-item {
+    background-color: transparent;
+    box-shadow: none;
+}
