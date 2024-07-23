@@ -15,6 +15,7 @@
     <main class="pt-32 pl-64">
         <?= $this->renderSection('content') ?>
     </main>
+    <?= $this->renderSection('script') ?>
 </body>
 
 </html>

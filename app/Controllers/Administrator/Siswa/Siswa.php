@@ -8,7 +8,10 @@ class Siswa extends BaseController
 {
     public function index(): string
     {
-        return view('administrator/pages/siswa/index');
+        $data = [
+            'title' => 'Siswa',
+        ];
+        return view('administrator/pages/siswa/index', $data);
     }
     
     public function create() {

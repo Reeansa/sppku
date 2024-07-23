@@ -1,4 +1,4 @@
-<nav class="fixed flex items-center justify-between w-full px-10 pl-64 shadow-default bg-[#F0F5F1] top-0 h-20">
+<nav class="fixed flex items-center justify-between w-full px-10 pl-64 shadow-default bg-[#F0F5F1] top-0 h-20 z-10">
     <div class="flex items-center gap-5 px-10">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M3 18V16H21V18H3ZM3 13V11H21V13H3ZM3 8V6H21V8H3Z" fill="#3D4946" />

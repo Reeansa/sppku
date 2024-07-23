@@ -8,6 +8,9 @@ class Kelas extends BaseController
 {
     public function index(): string
     {
-        return view('administrator/pages/kelas/index');
+        $data = [
+            'title' => 'Kelas',
+        ];
+        return view('administrator/pages/kelas/index', $data);
     }
 }
